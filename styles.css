@@ -48,3 +48,10 @@ h1{
     font-family: 'Righteous', cursive;
 
 }
+footer{
+    width: 100%;
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    
