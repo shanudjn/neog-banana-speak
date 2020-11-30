@@ -1,4 +1,29 @@
+:root {
+    --primary-color: #F1C001;
+    --off-white: #F3F4F6;
+    --dark-gray: #333333;
+}
+
 body{
-    width: 600px;
+    max-width: 600px;
     margin: auto;
+    background-color: white;   
+    margin-top: 0px;
+}
+h1{
+    text-align: center;
+    background-color: var(--primary-color);
+    width: 100%;
+}
+#text-input {
+    display: block;
+    width: 100%;
+    height: 20vh;
+    padding: 0.5rem, 0.5rem;
+}
+#btn-translate{
+    margin: 10px 10px 10px 10px;
+    height: 50px;
+    max-width: 90px;
+    
 }
