@@ -26,13 +26,17 @@ h1{
     margin: 1rem;
     padding: 1rem;
     font-family: 'Righteous', cursive;
-    font-size: large;
+    font-size: medium;
 }
 #btn-translate{
     margin: 10px 10px 10px 10px;
     height: 50px;
     max-width: 90px;
-    
+    font-family: 'Righteous', cursive;
+    margin: 1rem;
+    padding: 1rem;
+    border:none;
+    background-color: var(--primary-color);
 }
 #text-output{
     display: block;
