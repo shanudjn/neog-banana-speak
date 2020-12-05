@@ -21,15 +21,15 @@ function handleError(error) {
 }
 //handle click event
 function handleClick() {
-    var translatedtext;
+
     let inputTextValue = textInput.value;
 
     fetch(getTranslateURL(inputTextValue))
         .then(response => response.json())
         .then(json => {
-            // console.log(json);           
-            translatedtext = json.contents.translated;
-            displayTranslation(translatedtext);
+            // console.log(json);
+
+            displayTranslation(json.contents.translated;);
 
         })
         .catch(handleError)
@@ -37,5 +37,3 @@ function handleClick() {
 }
 
 btnTranslate.addEventListener('click', handleClick);
-
-

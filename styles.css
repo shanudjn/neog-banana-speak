@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 :root {
-    --primary-color: #F1C001;
+    --primary-color: #FFE522;
     --off-white: #F3F4F6;
     --dark-gray: #333333;
 }
@@ -54,4 +54,4 @@ footer{
     margin: 1rem;
     padding: 1rem;
     background-color: var(--primary-color);
-    
+}
