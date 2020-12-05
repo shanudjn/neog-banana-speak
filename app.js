@@ -29,7 +29,7 @@ function handleClick() {
         .then(json => {
             // console.log(json);
 
-            displayTranslation(json.contents.translated;);
+            displayTranslation(json.contents.translated);
 
         })
         .catch(handleError)
